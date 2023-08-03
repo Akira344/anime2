@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&display=swap');
+h1{
+    color: rgb(78, 75, 75);
+    font-family: 'Bruno Ace', cursive;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-align: center;
+}
+h2,h3{
+    color: rgb(83, 81, 81);
+    font-family: 'Bruno Ace', cursive;
+}
+p{
+    font-family: 'Bruno Ace SC', cursive;
+    text-transform: lowercase;
+    text-indent: 20px;
+    text-align: justify;
+    font-size: 1.5em;
+
+    
+}
+p.mycolor{
+    color: rgb(112, 188, 255);
+}
+a{
+    font-family: 'Bruno Ace', cursive;
+    color: rgb(83, 74, 74);
+    font-size:1.5em ;
+}  

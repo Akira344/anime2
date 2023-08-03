@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+<style>
+    th,H1{
+        font-family: 'Bruno Ace', cursive;
+        position: absolute;
+        top: 20px;
+        left: 780px;
+
+        
+    }
+    td{
+        font-family: 'Bruno Ace SC', cursive;
+    }
+    option{
+        font-family: 'Bruno Ace SC', cursive;
+    }
+    body{
+        background-image: url(images/a14.jpg);
+           background-repeat: no-repeat;
+            background-size: cover;
+            margin: 90px;
+        
+    } 
+    table{
+        height: 800px;
+        width: 700px;
+        position: absolute;
+        right: 500px;
+    }
+    input[type="submit"],[type="reset"]
+    {
+        border-radius: 20px;
+        height: 35px;
+        width: 80px;
+    }
+</style>
+<script>
+    alert("Signup to Anime Community")
+</script>
+</head>
+<body>
+    <center>
+        <h1>SIGNUP PAGE</h1>
+      <form action="">
+        <table>
+            <!-- <tr><th colspan="2">SIGNUP PAGE</th></tr> -->
+             <tr><td>First name:</td><td><input type="text" placeholder="Enter the first name" pattern="[A-Za-z] {2,}" title="must be atleast 2 alphabet" autofocus required></td></tr>
+             <tr><td>Last name:</td><td><input type="text" placeholder="Enter the last name"></td></tr>
+             <tr><td>Email:</td><td><input type="email" placeholder="Enter the email id "></td></tr>
+             <tr><td>Mobile:</td><td><input type="text" placeholder="Enter the mobile number" title="Enter 10 digit mobile number" pattern="[0-9] {10}"></td></tr>
+             <tr><td>Nationality:</td><td><input type="text" value="INDIAN" disabled></td></tr>
+             <tr><td>DOB:</td><td><input type="date"></td></tr>
+             <tr><td>Gender:</td><td><input type="radio" name="gender">Male</td><td><input type="Radio" name="gender">Female</td></tr>
+             <tr><td>City:</td><td><select name="city"> <option selected disabled> Choose City...</option>
+             <option value="">Delhi</option>
+             <option value="">Kolkata</option>
+             <option value="">Mumbai</option>
+             <option value="">Thiruvananthapuram</option>
+             <option value="">Ranchi</option>
+             <option value="">Dispur</option>
+             <option value="">Bhopal</option>
+             <option value="">Patna</option>
+             <option value="">Chandigarh</option>
+             <option value="">Shimla</option>
+             <option value="">Raipur</option>
+             <option value="">Imphal</option>
+             <option value="">Itanagar</option>
+             <option value="">Gandhinagar</option>
+             <option value="">Amaravati</option>
+             <option value="">Shillong</option>
+             <option value="">Aizawl</option>
+             <option value="">Kohima</option>
+             <option value="">Bhubaneshwar</option>
+             <option value="">Jaipur</option>
+             <option value="">Gangtok</option>
+             <option value="">Chennai</option>
+             <option value="">Hyderabad</option>
+             <option value="">Agartala</option>
+             <option value="">Lucknow</option>
+             <option value="">Dehradun</option>
+             <option value="">Srinagar</option>
+             <option value="">Daman</option>
+             <option value="">Kavaratti</option>
+             <option value="">Pondicherry</option>
+             <option value="">Port Blair</option>
+            </td></tr>
+             <tr><td>Address</td><td><input type="text" placeholder="Enter the address"></td></tr>
+             <tr><td>Password:</td><td><input type="password" placeholder="**********" ></td></tr>
+             <tr><td><input type="submit" value="SIGNUP"></td><td><input type="reset" value="RESET"></td></tr>
+        </table>
+      </form>
+    </center>
+    
+</body>
+</html>
